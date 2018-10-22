@@ -13,6 +13,10 @@ setup(
             [console_scripts]
             scramblequiz=quizscrambler.main:scramblequiz
         ''',
+    package_data={
+        # If any package contains *.txt or *.rst files, include them:
+        '': ['*.txt', '*.rst', '*.yaml', '*.md']
+    },
     license='Apache 2.0',
     author='J Sebastian Paez',
     author_email='jpaezpae@gmail.com',
