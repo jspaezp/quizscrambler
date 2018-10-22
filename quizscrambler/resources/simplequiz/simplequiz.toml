@@ -1,0 +1,14 @@
+1:
+  statement: Which one is better
+  options:
+      a: foo
+      b: var
+      c: beer
+  answer: beer
+2:
+  statement: What is one plus one
+  options:
+      a: 1
+      b: Beer
+      c: 2
+  answer: 2
